@@ -1,0 +1,9 @@
+break *0x4012d1
+  commands
+    heapinfo
+    x/15xg 0x602100
+    c
+  end
+
+
+
